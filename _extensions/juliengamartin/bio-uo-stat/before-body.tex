@@ -1,0 +1,66 @@
+\begin{titlepage}
+%  \null\vfill
+    \null\vskip 3em
+  \begin{center}
+    \vskip 1em
+    {%
+      \usekomafont{title}{\huge
+        \myTitle
+      \par}%
+    }%
+    \vskip 1em
+    {%
+      \usekomafont{subtitle}{%
+        \mySubtitle% <- subtitle
+      \par}%
+    }%
+      \vskip 3em
+      \centerline{\includegraphics[height=20cm]{_extensions/juliengamartin/bio-uo-stat/bio8940_logo_hex.png}}
+      \vskip 3em
+    {
+      \usekomafont{author}{
+        Report produced as part of $course$ \par
+
+        by \par
+      }
+    }
+    {%
+      \usekomafont{author}{%
+          \myAuthor \par% <- author
+      }%
+    }%
+    {\usekomafont{date}{\myDate \par}}%
+%      \vskip 2em
+    \vspace*{\fill}
+      {
+      \usekomafont{author}{%
+        Presented to\par
+        $course-lec$
+      \lineskip 0.75em
+      }
+    }%
+
+    {
+
+%      A proposal submitted as a partial requirement for a \myDegree \ degree \\
+%      at the University of Ottawa, \myAff \par
+
+    }%
+  \end{center}
+  \clearpage
+  % \thispagestyle{empty}
+  % \noindent\begin{minipage}[t]{\textwidth}
+  %   Upper Text% <- upper text
+  % \end{minipage}\par
+  % \vfill
+  % \noindent\begin{minipage}[b]{\textwidth}
+  %   Lower Text% <- lower text
+  % \end{minipage}\par
+\end{titlepage}
+
+\pagebreak
+$if(toc)$
+\tableofcontents
+\vfill
+\pagebreak
+$endif$
