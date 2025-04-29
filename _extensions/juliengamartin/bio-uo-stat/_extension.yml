@@ -29,3 +29,10 @@ contributes:
       # See https://quarto.org/docs/output-formats/ms-word-templates.html
       #reference-doc: template.docx
       toc: true
+    html:
+      # See https://quarto.org/docs/output-formats/ms-word-templates.html
+      #reference-doc: template.docx
+      toc: true
+      embed-resources: true
+      code-fold: true
+      code-tools: true

@@ -15,7 +15,7 @@ format:
 # uncomment if you want this format
 #  docx: default   # warning title page not formatted correctly
   bio-uo-stat-pdf: default
-  bio-uo-stat-docx: default
+  bio-uo-stat-html: default
 ---
 
 # Introduction
