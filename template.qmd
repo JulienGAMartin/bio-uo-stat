@@ -39,6 +39,11 @@ In addition to describing analysis in details it is a good practice to cite all 
 
 # Results
 
+```{r}
+#| label: data-load
+dat <- data.frame(a=1:10)
+```
+
 No need to show all the code and output here you can use the option "echo: false"
 and create table and nice figures
 
@@ -49,6 +54,12 @@ Text and visualizations clearly summarizing your results, using parallel structu
 - text describing results
 - evaluation of model assumption and model fit
 
+```{r}
+#| label: fig-data
+#| fig-cap: Amazing plot
+
+plot(dat$a)
+```
 
 # Discussion
 
